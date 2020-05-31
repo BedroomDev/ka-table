@@ -7,6 +7,7 @@ import { centerLength, getPagesForCenter } from '../../Utils/PagingUtils';
 export interface IPagingProps {
   enabled?: boolean;
   pageIndex?: number;
+  totalPages?: number;
   pageSize?: number;
 }
 
